@@ -96,7 +96,7 @@ Each model is scored with **RMSE**, **MAE**, **MAPE**, and **direction accuracy*
 
 Simple long/flat strategy: go long when the forecast's next step is above today's close, otherwise flat. Includes proportional transaction cost. Reports total return, Sharpe ratio, max drawdown, and compares to buy-and-hold.
 
-> ⚠️ Educational only — backtests can be over-optimistic and ignore slippage, fills, taxes, and survivorship bias. Do not trade on this.
+
 
 ## Run tests
 
