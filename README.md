@@ -107,6 +107,19 @@ pytest tests/
 
 Tests use synthetic data and run fully offline.
 
+## Screenshots
+
+### Overview (in browser)
+![Overview in browser](screenshots/01-overview-browser.png)
+
+### Overview tab — ARIMA + SARIMA selected
+![Overview with ARIMA and SARIMA](screenshots/02-overview-arima-sarima.png)
+
+### Model selection
+| ARIMA | SARIMA | Prophet |
+| --- | --- | --- |
+| ![ARIMA only](screenshots/03-arima-only.png) | ![SARIMA only](screenshots/04-sarima-only.png) | ![Prophet only](screenshots/05-prophet-only.png) |
+
 ## Learning objectives covered
 
 - Time series components (trend, seasonality, noise) — Prophet decomposition + SARIMA
